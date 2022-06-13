@@ -1,0 +1,7 @@
+bodybg - #F4EFE5;
+txt-col1 - #000
+txt-color2: #747069;
+cord shadow - box-shadow: 0px 7px 104px rgba(227, 206, 173, 0.74);
+active tab header bg - #FEF8EB;
+btn background: #EB6649;
+btn box-shadow: 0px 4px 10px rgba(235, 102, 73, 0.25);

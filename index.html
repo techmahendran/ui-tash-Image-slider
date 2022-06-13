@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <header>
+          <nav>
+            <ul>
+              <li><a href="#" class="active">All</a></li>
+              <li><a href="#">Photograph</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <!-- carousel -->
+        <div class="carousel-imgs">
+          <div class="carousel">
+            <img
+              src="./Frame.png"
+              alt="Frame"
+              class="left arrow"
+              id="leftslide"
+            />
+
+            <div class="slide img1">
+              <img src="Rectangle 3.png" alt="" id="img" />
+              <h4>Britta Clay Art</h4>
+              <p>sun,april 3 2022</p>
+            </div>
+            <div class="slide img2">
+              <img src="Rectangle 4.png" alt="" />
+              <h4>Belgian Balloon Throphy</h4>
+              <p>sun,april 3 2022</p>
+            </div>
+            <div class="slide img3">
+              <img src="Rectangle 5.png" alt="" />
+              <h4>Way of the Hurt</h4>
+              <p>sun,april 3 2022</p>
+            </div>
+
+            <img
+              src="./Frame (1).png"
+              alt="Frame2"
+              class="right arrow"
+              id="rightslide"
+            />
+          </div>
+        </div>
+        <div class="btn">
+          <button class="viewbtn">View more</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
